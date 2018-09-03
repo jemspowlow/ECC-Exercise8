@@ -18,7 +18,7 @@ public class InputUtil {
 			 }
 			
 			if(num <= lowerLimit || (num > upperLimit && upperLimit!=0)) {
-				System.out.println("\nInvalid input "+ num +". Please input new value.");
+				System.out.println("\nInvalid input. Please input new value.");
 				System.out.print("New value: ");
 				continue;
 			 }

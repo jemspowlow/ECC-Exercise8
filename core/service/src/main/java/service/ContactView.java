@@ -55,10 +55,9 @@ public class ContactView {
 					cd.listContacts();
 					System.out.print("Select Contact ID: ");
 					id = iu.getInt(0,0);
-					contact = cd.getContact(id);
-					
+					contact = cd.getContact(id);				
 					contact = updateMenu(contact);
-					
+					cd.editContact(contact);
 				break;
 			case 3: System.out.println("List of Contacts"); 
 					cd.listContacts();
